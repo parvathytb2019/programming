@@ -1,3 +1,8 @@
+/* to reverse a string
+example:
+input :I.Love.India
+output:India.Love.I*/
+
 string=input()
 l=string.split('.')
 l.reverse()
