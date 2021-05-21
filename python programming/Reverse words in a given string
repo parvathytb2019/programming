@@ -1,0 +1,8 @@
+string=input()
+l=string.split('.')
+l.reverse()
+length=len(l)
+for i in l:
+    print(i,end="")
+    if(i!=l[length-1]):
+        print(".",end="")
