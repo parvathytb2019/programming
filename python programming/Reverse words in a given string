@@ -1,7 +1,7 @@
-/* to reverse a string
+""" to reverse a string
 example:
 input :I.Love.India
-output:India.Love.I*/
+output:India.Love.I"""
 
 string=input()
 l=string.split('.')
