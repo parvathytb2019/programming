@@ -1,3 +1,6 @@
+## Binary of a number
+Python program to find the binary value of a natural number
+```c
 #include<stdio.h>
 void binary(int num);
 void main()
@@ -19,3 +22,4 @@ void binary(int num)
 	}
 	printf("binary value is%d",rev);
 }
+```
