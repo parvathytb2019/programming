@@ -1,5 +1,5 @@
 ## Amstrong numbers
-Python program to find amstrong numbers between 100 and 500
+C program to find amstrong numbers between 100 and 500
 ```c
 #include<stdio.h>
 void main()
