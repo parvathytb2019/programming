@@ -1,3 +1,6 @@
+## Compare the values
+C program to compare the area and perimeter values of a rectangle
+```c
 #include<stdio.h>
 void main()
 {
@@ -13,3 +16,4 @@ if(area>perimeter)
 else
 	printf("perimeter is greater than area");
 }
+```
