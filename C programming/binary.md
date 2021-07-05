@@ -1,5 +1,5 @@
 ## Binary of a number
-Python program to find the binary value of a natural number
+C program to find the binary value of a natural number
 ```c
 #include<stdio.h>
 void binary(int num);
