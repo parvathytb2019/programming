@@ -1,9 +1,11 @@
-"""There are three integers k,m,n. You have to convert the number k to m by performing the given operations:
+## Minimum steps
+There are three integers k,m,n. You have to convert the number k to m by performing the given operations:
 
 Multiply k by n
  Decrease k by 2.
  Decrease k by 1.
-You have to perform the above operations to convert the integer from k to m and find the minimum steps.you can use the operations in any order"""
+You have to perform the above operations to convert the integer from k to m and find the minimum steps.you can use the operations in any order
+```python
 t=int(input())
 while(t>0):
     k=int(input())
@@ -34,3 +36,4 @@ while(t>0):
             break
     print(count)
     t-=1
+    ```
