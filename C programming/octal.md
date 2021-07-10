@@ -1,4 +1,6 @@
-  
+## Octal equivalent of a number
+C program to find the octal equivalence of a decimal number
+```c
 #include<stdio.h>
 void main()
 {
@@ -14,3 +16,4 @@ void main()
 	}
 	printf("octal value is%d",rev);
 }
+```
