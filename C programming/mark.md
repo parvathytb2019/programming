@@ -1,3 +1,6 @@
+## Percentage and Average of Marks
+C program to find the percentage and average of marks in 3 subjects
+```c
 #include<stdio.h>
 float percentage(int one,int two,int three);
 float average(int one,int two,int three);
@@ -9,7 +12,7 @@ void main()
 	scanf("%d%d%d",&one,&two,&three);
 	per=percentage(one,two,three);
 	ave=average(one,two,three);
-	printf("percentage is %f",per);
+	printf("percentage is %f\n",per);
 	printf("average mark is %f",ave);
 }
 float percentage(int one,int two,int three)
@@ -25,3 +28,4 @@ float average(int one,int two,int three)
 	aver=(one+two+three)/3;
 	return aver;
 }
+```
