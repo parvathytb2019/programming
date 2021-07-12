@@ -1,4 +1,6 @@
-
+## Efficency of workers
+C program to find the efficency of workers according to working hours
+```c
 #include<stdio.h>
 void main()
 {
@@ -14,3 +16,4 @@ void main()
 	if(time>5.0)
 		printf("the worker will be terminated");
 }
+```
